@@ -59,12 +59,113 @@
             .div2{
                 width: 47%;
                 float: right;
-
             }
 
             .div3{
+                margin-right: 10px;
                 width: 97.5%;
                 clear: both;
+                position: relative;
+                top: 19px;
+            }
+        }
+
+        @media (max-width: 768px){
+            .container > div{
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-bottom: 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Our menu</h1>
+    <div class="container">
+        <div class="div1">
+            <h2>Chiken</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dicta hic quidem illo distinctio eligendi ex quia facere dolor dolorem, quibusdam tempora? Eveniet dignissimos error atque, facilis consequuntur optio odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore deleniti at repudiandae quibusdam molestiae, odit molestias quasi? Praesentium, beatae, eum ratione ducimus iste, quas repellat alias sint obcaecati delectus molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsum, officia molestias, aliquam id odio, rerum in alias consequatur nisi delectus. Rem fugiat consequatur tempora sunt vero nam nemo placeat?</p>
+        </div>
+        <div class="div2">
+            <h2>Beef</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse corrupti quo deserunt quisquam debitis nisi delectus cum reiciendis. Numquam tempora rerum quasi hic enim quo id voluptates perferendis similique quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, fugit! Repellendus ratione dolores eligendi ex quae soluta, suscipit dolore fuga! Mollitia, architecto repudiandae quia excepturi voluptatem omnis dolore commodi saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maxime, libero commodi et excepturi, optio provident id sit fugit iure necessitatibus recusandae. Repellat harum debitis cum ab, eligendi qui tempora.</p>
+        </div>
+        <div class="div3">
+            <h2>Sushi</h2>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque minus pariatur, atque animi suscipit dignissimos soluta, quis illum tenetur aut fuga, fugiat corporis sunt repellendus accusamus! Inventore, mollitia! Vitae, atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nulla recusandae dolorem. Molestiae, expedita nisi commodi dolorem eveniet et rerum quibusdam officia neque cum minima animi voluptatem quasi necessitatibus fuga.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde iure, adipisci voluptatem molestiae dolore qui eius, ipsum rem placeat sint, laudantium ex nesciunt consequatur illum repellat quas? Excepturi, earum reprehenderit.</p>
+        </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Respond.js для IE8 (media queries) -->
+<!-- Предупреждение: Respond.js не будет работать при просмотре страницы через file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+
+        .container > div{
+            border: 2px solid black;
+            margin: 10px;
+            background-color: gray;
+        }
+
+        .container > div > h2 {
+            float: right;
+            width: 20%;
+            height: 8%;
+            border: 2px solid black;
+            margin-top: 0;
+            border-top: 0;
+            text-align: center;
+            font-size: 90%;
+        }
+
+        .container > div > p {
+            clear: both;
+            text-align: center;
+        }
+
+        @media (width>992px){
+            .container > div{
+                width: 32%;
+                float: left;
+
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px){
+            .div1{
+                width: 47%;
+                float: left;
+            }
+
+            .div2{
+                width: 47%;
+                float: right;
+            }
+
+            .div3{
+                margin-right: 10px;
+                width: 97.5%;
+                clear: both;
+                position: relative;
+                top: 19px;
             }
         }
 
